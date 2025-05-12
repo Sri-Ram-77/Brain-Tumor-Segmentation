@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the MRI image (grayscale)
-image = cv2.imread('C:\Users\anna_students\Desktop\Brain Tumor Segmentation\brain.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('brain.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Apply Gaussian blur to reduce noise
 blurred = cv2.GaussianBlur(image, (5, 5), 0)
